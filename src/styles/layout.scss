@@ -1,0 +1,165 @@
+@use 'theme' as *;
+
+body {
+    background-color: $backgroundPrincipal;
+}
+
+.contentSection {
+    display: none;
+}
+
+#trailer {
+    .video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; // faz p contêiner ocupar a altura total da tela
+
+        @media (max-width: 1024px) {
+            height: 40vh;
+        }
+
+        video {
+            width: 80%;
+            max-width: 1020px;
+        }
+    }
+}
+
+#sinopse {
+    padding: 100px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#equipe {
+    padding: 20px 0 50px 0;
+    .equipe--container {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0 60px;
+        justify-content: center;
+        align-items: center;
+        display: block;
+
+        @media (max-width: 768px) {
+            padding: 0 10px;
+        }
+
+        .diretor-roteirista {
+            img {
+                width: 19%;
+                height: 28.3vh;
+                object-fit: cover;
+                border-radius: 10px;
+
+                @media (max-width: 768px) {
+                    width: 45%;
+                    height: 25.3vh;
+                }
+
+                @media (min-width: 768px) and (max-width: 1024px) {
+                    width: 25%;
+                    height: 21.3vh;
+                }
+            }
+        }
+
+        h5 {
+            color: rgb(66, 67, 70);
+        }
+
+        .elenco {
+            &__principal {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-row-gap: 40px;
+
+                @media (max-width: 768px) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                &--container {
+                    text-align: center;
+
+                    img {
+                        width: 69%;
+                        height: 28.3vh;
+                        object-fit: cover;
+                        border-radius: 10px;
+                        justify-content: center;
+
+                        @media (max-width: 768px) {
+                            width: 85%;
+                            height: 27.3vh;
+                        }
+
+                        @media (min-width: 768px) and (max-width: 1024px) {
+                            width: 98%;
+                            height: 23.3vh;
+                        }
+                    }
+                }
+            }
+
+            &__secundario {
+                padding-top: 90px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                column-gap: 100px;
+
+                @media (max-width: 768px) {
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: 50px;
+                    text-align: center;
+                }
+            }
+
+            .equipe__restante--container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                column-gap: 100px;
+                text-align: center;
+
+                .specific-display {
+                    display: block;
+                }
+
+                @media (max-width: 768px) {
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: 25px;
+
+                    .specific-display {
+                        display: contents;
+                    }
+                }
+
+                @media (min-width: 768px) and (max-width: 1024px) {
+                    column-gap: 70px;
+                }
+            }
+        }
+    }
+}
+
+#como-assistir {
+    padding: 100px 50px 100px 125px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        padding: 30px 36px 85px 36px;
+    }
+
+    .plataformas-disponiveis {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 60px;
+
+        img {
+            width: 20%;
+            height: -0.5vh;
+            margin-right: 20px;
+        }
+    }
+}

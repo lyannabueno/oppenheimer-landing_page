@@ -1,0 +1,15 @@
+.text--hero {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o elemento precisamente */
+    animation: fadeInOut 5s infinite;
+}
+
+@keyframes fadeInOut { // define os estados iniciais, intermediários e finais de uma animação, especificando estilos em diferentes pontos ao longo do tempo da animação
+    0% {opacity: 0;}
+    8.33% {opacity: 0;}
+    50% {opacity: 1;}
+    58.33% {opacity: 0;}
+    100% {opacity: 0;}
+}

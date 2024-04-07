@@ -1,0 +1,1 @@
+.text--hero{position:absolute;top:30%;left:50%;transform:translate(-50%, -50%);animation:fadeInOut 5s infinite}@keyframes fadeInOut{0%{opacity:0}8.33%{opacity:0}50%{opacity:1}58.33%{opacity:0}100%{opacity:0}}/*# sourceMappingURL=estate.css.map */

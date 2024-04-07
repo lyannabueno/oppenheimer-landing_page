@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppenheimer Landing Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:wght@100..900&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../dist/styles/base.css">
+    <link rel="stylesheet" href="../dist/styles/estate.css">
+    <link rel="stylesheet" href="../dist/styles/layout.css">
+    <link rel="stylesheet" href="../dist/styles/module.css">
+    <link rel="stylesheet" href="../dist/styles/theme.css">
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <img src="images/hero/hero.jpg" alt="Hero da Landing Page">
+            <h1 class="title">OPPENHEIMER</h1>
+            <h5 class="text--hero">Vencedor em 7 Oscas</h5>
+        </div>
+
+        <nav>
+            <ul class="d-flex">
+                <li>
+                    <a class="changeSection" data-target="trailer" href="#trailer">Trailer</a>
+                </li>
+                <li>
+                    <a class="changeSection" data-target="sinopse" href="#sinopse">Sinopse</a>
+                </li>
+                <li>
+                    <a class="changeSection" data-target="equipe" href="#equipe">Equipe</a>
+                </li>
+                <li>
+                    <a class="changeSection" data-target="como-assistir" href="#como-assistir">Como assistir</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="background_hero">
+        <img class="w-100" src="images/hero/background_hero.jpg" alt="Background Hero">
+    </section>
+
+    <section class="contentSection" id="trailer">
+        <h2 class="text--trailer">"Eu me tornei a morte, o destruidor de mundos."<br/>- Robert Oppenheimer</h2>
+
+        <div class="video-container">
+            <video controls>
+                <source src="images/trailer/OPPENHEIMER - Novo Trailer (Universal Studios) – HD.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section class="contentSection" id="sinopse">
+        <h2 class="text--sinopse">O físico J. Robert Oppenheimer trabalha com uma equipe de cientistas durante o Projeto Manhattan, levando ao desenvolvimento da bomba atômica.</h2>
+    </section>
+
+    <section class="contentSection" id="equipe">
+        <div class="equipe--container">
+
+            <h2 class="text--equipe">Diretor e roteirista</h2>
+            <div class="diretor-roteirista">
+                <img src="images/equipe/christopher_nolan.jpg" alt="Christopher Nolan">
+                <h4>Christopher Nolan</h4>
+            </div>
+
+            <h2 class="text--equipe">Elenco</h2>
+            <div class="elenco">
+                <div class="elenco__principal">
+                    <div class="elenco__principal--container">
+                        <img src="images/equipe/cilian_murphy.jpg" alt="Cillian Murphyn">
+                        <h4>Cillian Murphyn</h4>
+                        <h5>- J. Robert Oppenheimer</h5>
+                    </div>
+    
+                    <div class="elenco__principal--container">
+                        <img src="images/equipe/casey_affleck.jpg" alt="Casey Affleck">
+                        <h4>Casey Affleck</h4>
+                        <h5>- Boris Pash</h5>
+                    </div>
+    
+                    <div class="elenco__principal--container">
+                        <img src="images/equipe/emily_blunt.jpg" alt="Emily Blunt">
+                        <h4>Emily Blunt</h4>
+                        <h5>- Kitty Oppenheimer</h5>
+                    </div>
+    
+                    <div class="elenco__principal--container">
+                        <img src="images/equipe/florence_pugh.jpg" alt="Florence Pugh">
+                        <h4>Florence Pugh</h4>
+                        <h5>- Jean Tatlock</h5>
+                    </div>
+    
+                    <div class="elenco__principal--container">
+                        <img src="images/equipe/gary_oldman.jpg" alt="Gary Oldman">
+                        <h4>Gary Oldman</h4>
+                        <h5>- Harry S. Truman</h5>
+                    </div>
+    
+                    <div class="elenco__principal--container">
+                        <img src="images/equipe/josh_hartnett.jpg" alt="Josh Hartnett">
+                        <h4>Josh Hartnett</h4>
+                        <h5>- Ernest Lawrence</h5>
+                    </div>
+    
+                    <div class="elenco__principal--container">
+                        <img src="images/equipe/matt_damon.jpg" alt="Matt Damon">
+                        <h4>Matt Damon</h4>
+                        <h5>- Leslie Groves Jr.</h5>
+                    </div>
+    
+                    <div class="elenco__principal--container">
+                        <img src="images/equipe/robert_downey.jpg" alt="Robert Downey Jr.">
+                        <h4>Robert Downey Jr.</h4>
+                        <h5>- Lewis Strauss</h5>
+                    </div>
+                </div>
+
+            <div class="elenco__secundario">
+                    <div class="elenco__secundario--container">
+                        <h4>Kenneth Branagh</h4>
+                        <h5>- Niels Bohr</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Jason Clarke</h4>
+                        <h5>- Roger Robb</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>David Krumholtz</h4>
+                        <h5>- Isidor Isaac Rabi</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Alden Ehrenreich</h4>
+                        <h5>- L'assistant du sénateur</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Benny Safdie</h4>
+                        <h5>- Edward Teller</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Tom Conti</h4>
+                        <h5>- Albert Einstein</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Macon Blair</h4>
+                        <h5>- Lloyd Garrison</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Dylan Arnold</h4>
+                        <h5>- Frank Oppenheimer</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Trond Fausa</h4>
+                        <h5>- George Kistiakowsky</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Jefferson Hall</h4>
+                        <h5>- Haakon Chevalier</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Gustaf Skarsgård</h4>
+                        <h5>- Hans Bethe</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Tony Goldwyn</h4>
+                        <h5>- Gordon Gray</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Michael Angarano</h4>
+                        <h5>- Robert Serber</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Dane DeHaan</h4>
+                        <h5>- Kenneth Nichols</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>David Dastmalchian</h4>
+                        <h5>- William Borden</h5>
+                    </div>
+
+                    <div class="elenco__secundario--container">
+                        <h4>Gary Oldman</h4>
+                        <h5>- Harry S. Truman</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Matthew Modine</h4>
+                        <h5>- Vannevar Bush</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Jack Quaid</h4>
+                        <h5>- Richard Feynman</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Olli Haaskivi</h4>
+                        <h5>- Edward Condon</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>James Remar</h4>
+                        <h5>- Henry Stimson</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Harry Groener</h4>
+                        <h5>- Senator McGee</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Harrison Gilbertson</h4>
+                        <h5>- Philip Morrison</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Máté Haumann</h4>
+                        <h5>- Leo Szilard</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>James D'Arcy</h4>
+                        <h5>- Patrick Blackett</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Matthias Schweighöfer</h4>
+                        <h5>- Werner Heisenberg</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Devon Bostick</h4>
+                        <h5>- Seth Neddermeyer</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Olivia Thirlby</h4>
+                        <h5>- Lilli Hornig</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Josh Zuckerman</h4>
+                        <h5>- Rossi Lomanitz</h5>
+                    </div>
+
+                    <div class="elenco__secundario--container">
+                        <h4>Scott Grimes</h4>
+                        <h5>- Counsel</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Rory Keane</h4>
+                        <h5>- Hartland Snyder</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Kate French</h4>
+                        <h5>- Assistant of the President</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Tim DeKay</h4>
+                        <h5>- Senator Pastore</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Alex Wolff</h4>
+                        <h5>- Luis Alvarez</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Josh Peck</h4>
+                        <h5>- Kenneth Bainbridge</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Ted King</h4>
+                        <h5>- Senator Bartlett</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Pat Skipper</h4>
+                        <h5>- James Byrnes</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Guy Burnet</h4>
+                        <h5>- George Eltenton</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Christopher Denham</h4>
+                        <h5>- Klaus Fuchs</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>David Rysdahl</h4>
+                        <h5>- Donald Hornig</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Jack Cutmore-Scott</h4>
+                        <h5>- Lyall Johnson</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Emma Dumont</h4>
+                        <h5>- Jackie Oppenheimer</h5>
+                    </div>
+                    
+                    <div class="elenco__secundario--container">
+                        <h4>Louise Lombard</h4>
+                        <h5>- Ruth Tolman</h5>
+                    </div>
+                </div>
+
+                <div class="equipe__restante--container">
+                    <div class="equipe__tecnica">
+                        <h2 class="text--equipe">Equipe Técnina</h2>
+                        <div class="equipe_tecnica">
+                            <div class="equipe_tecnica--container">
+                                <h4>Hoyte Van Hoytema</h4>
+                                <h5>Diretor de fotografia</h5>
+                            </div>
+                            <div class="equipe_tecnica--container">
+                                <h4>Willie D. Burton</h4>
+                                <h5>Autor da mixagem de som</h5>
+                            </div>
+                            <div class="equipe_tecnica--container">
+                                <h4>Adam Willis</h4>
+                                <h5>Aderecista</h5>
+                            </div>
+                            <div class="equipe_tecnica--container">
+                                <h4>Richard King</h4>
+                                <h5>Engenheiro de som</h5>
+                            </div>
+                            <div class="equipe_tecnica--container">
+                                <h4>Adam Willis</h4>
+                                <h5>Cenografista</h5>
+                            </div>
+                            <div class="equipe_tecnica--container">
+                                <h4>Jennifer Lame</h4>
+                                <h5>Montador chefe</h5>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="equipe__producao">
+                        <h2 class="text--equipe">Produção</h2>
+                        <div class="producao">
+                            <div class="producao--container">
+                                <h4>J. David Wargo</h4>
+                                <h5>Produtor Executivo</h5>
+                            </div>
+                            
+                            <div class="producao--container">
+                                <h4>Emma Thomas</h4>
+                                <h5>Produtor</h5>
+                            </div>
+                            
+                            <div class="producao--container">
+                                <h4>James Woods</h4>
+                                <h5>Produtor Executivo</h5>
+                            </div>
+                            
+                            <div class="producao--container">
+                                <h4>Charles Roven</h4>
+                                <h5>Produtor</h5>
+                            </div>
+                            
+                            <div class="producao--container">
+                                <h4>Thomas Hayslip</h4>
+                                <h5>Produtor Executivo</h5>
+                            </div>
+                            
+                            <div class="producao--container">
+                                <h4>Christopher Nolan</h4>
+                                <h5>Produtor</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specific-display">
+                        <div class="equipe__empresas-envolvidas">
+                            <h2 class="text--equipe">Empresas Envolvidas</h2>
+                            <div class="empresas_envolvidas">
+                                <div class="empresas_envolvidas--container">
+                                    <h4>Universal Pictures</h4>
+                                    <h5>Production</h5>
+                                </div>
+                                <div class="empresas_envolvidas--container">
+                                    <h4>Atlas Entertainment</h4>
+                                    <h5>Production</h5>
+                                </div>
+                                <div class="empresas_envolvidas--container">
+                                    <h4>Syncopy</h4>
+                                    <h5>Production</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="equipe__trilha-sonora">
+                            <h2 class="text--equipe">Trilha Sonora</h2>
+                            <div class="trilha-sonora">
+                                <h4>Ludwig Göransson</h4>
+                                <h5>Compositor</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contentSection" id="como-assistir">
+        <h2 class="text--como_assistir">Disponível em</h2>
+        <div class="plataformas-disponiveis">
+                <div class="appletv d-flex align-items-center">
+                    <img src="images/como-assistir/appletv.png" alt="appletv">
+                    <h3>AppleTV</h3>
+                </div>
+                <div class="youtube d-flex align-items-center">
+                    <img src="images/como-assistir/youtube.png" alt="youtube">
+                    <h3>YouTube</h3>
+                </div>
+                <div class="amazon-prime d-flex align-items-center">
+                    <img src="images/como-assistir/primevideo.jpg" alt="amazon-prime" style="border-radius: 10px;">
+                    <h3>Amazon Prime</h3>
+                </div>
+                <div class="google-play-films d-flex align-items-center">
+                    <img src="images/como-assistir/googleplay-films.png" alt="Google Play Films">
+                    <h3>Google Play Films</h3>
+                </div>
+        </div>
+    </section>
+</body>
+
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

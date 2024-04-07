@@ -1,0 +1,70 @@
+@use 'theme' as *;
+
+header {
+    .hero {
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 89vh;
+            object-fit: cover;
+        }
+
+        .title{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Centraliza o elemento precisamente */
+            letter-spacing: 15px;
+            opacity: 0;
+            animation: fadeInOut 24s infinite;
+        }
+
+        @keyframes fadeInOut { // define os estados iniciais, intermediários e finais de uma animação, especificando estilos em diferentes pontos ao longo do tempo da animação
+            0% {opacity: 0;}
+            8.33% {opacity: 1;}
+            50% {opacity: 1;}
+            58.33% {opacity: 0;}
+            100% {opacity: 0;}
+        }
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            padding: 15px 0;
+            background-color: $navbarColor;
+            justify-content: center;
+            grid-gap: 100px;
+            margin-bottom: 0;
+
+            @media (max-width: 768px) {
+                grid-gap: 20px;
+            }
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+                grid-gap: 50px;
+            }
+
+            li {
+                font-size: 32px;
+                font-weight: 500;
+
+                @media (max-width: 768px) {
+                    font-size: 16px;
+                }
+                
+                @media (min-width: 768px) and (max-width: 1023px) {
+                    font-size: 24px;
+                }
+
+                a {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
