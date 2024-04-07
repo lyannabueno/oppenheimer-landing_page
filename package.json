@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "grunt": "grunt",
+    "build": "grunt",
     "sass": "sass --watch src/styles:dist/styles --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
