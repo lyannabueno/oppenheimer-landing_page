@@ -26,7 +26,7 @@ module.exports = function(grunt) {
             files: [{
                 expand: true,
                 cwd: 'src/images/',
-                src: ['**/*.{png,jpg,gif}'],
+                src: ['**/*.{png,jpg,gif,mp4}'],
                 dest: 'dist/images/'
             }]
             }
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
             },
             },
             images: {
-            files: ['src/images/**/*.{png,jpg,gif}'],
+            files: ['src/images/**/*.{png,jpg,gif,mp4}'],
             tasks: ['imagemin'],
             options: {
                 spawn: false,
