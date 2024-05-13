@@ -30,6 +30,7 @@ Este site fornece uma visão abrangente da página de destino do filme Oppenheim
 - **JavaScript**: Gerencia as interações dinâmicas na página, como a resposta aos cliques nos itens do menu de navegação.
 - **Bootstrap 5.3.3**: Framework CSS usado para criar um design responsivo e acessível, incluindo um sistema de grid para layouts adaptáveis, componentes interativos como modais e tooltips, e utilitários de CSS para estilização rápida.
 - **Google Fonts**: Fornece uma variedade de fontes que melhoram a estética visual da página e garantem a consistência tipográfica.
+- Grunt: Automatização de tarefas como minificação de CSS/JS e otimização de imagens.
 
 ## Como Navegar 🎬
 
